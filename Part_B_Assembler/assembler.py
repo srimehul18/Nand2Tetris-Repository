@@ -2,7 +2,6 @@ import sys
 import re
 from pathlib import Path
 
-# Predefined Hack symbols
 SYMBOLS = {
     "SP": 0,
     "LCL": 1,
@@ -17,7 +16,6 @@ for i in range(16):
     SYMBOLS[f"R{i}"] = i
 
 
-# Hack comp instruction table
 COMP = {
     "0":   "0101010",
     "1":   "0111111",
